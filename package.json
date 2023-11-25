@@ -7,15 +7,17 @@
   "version": "1.0.0",
   "author": "oogwu",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "dependencies": {
     "update-electron-app": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "27.0.4"
+    "electron": "27.0.4",
+    "electron-builder": "^24.9.1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/pysnow530/test-electron-update.git"
   }
